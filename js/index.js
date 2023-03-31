@@ -161,7 +161,7 @@ function separarCategoria() {
   for (let i = 0; i < tagBotoesCategoria.length; i++) {
     tagBotoesCategoria[i].addEventListener("click", function (event) {
       event.preventDefault()
-
+      console.log(event.target)
       let novaArray = []
       for (let j = 0; j < data.length; j++) {
         if (event.target.getAttribute("id") == data[j].categoria) {
@@ -173,7 +173,7 @@ function separarCategoria() {
 
       }
       addElementos(novaArray)
-      console.log(novaArray)
+
     })
   }
 

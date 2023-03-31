@@ -15,7 +15,7 @@
     imagem: "./caveira.png",
     nome: "Caveira Souvenir",
     descricao: "Enfeite de caveira feito a mão decorado com alumínio e nanquim (material: gesso)",
-    preco: 99.00,
+    preco: 99,
     botao: "Adicionar ao carrinho",
     categoria: ["Souvenir"],
   },
